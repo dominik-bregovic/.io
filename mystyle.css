@@ -1,6 +1,6 @@
 
       body {
-        background-image: url('images/8.jpg');
+        background-image: url('images/trooper.jpg');
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: 100% 100%;
@@ -8,6 +8,5 @@
 	  
 	  h1{
 		  color:blue;
-		  strong;
 	  }
      
