@@ -6,19 +6,52 @@
         background-size: 100% 100%;
 	
       }
-	  header {
 
+	  header {
 		display: flex;
-		flex-direction: row;
+		flex-direction: column;
+		flex-wrap: nowrap;
+  
+		font-family: "Verdana", Sansserif;
+		font-weight: bold;
 	  }
+
+	  .Intro{
+		  display: flex;
+		  flex-direction: column;
+		  flex-wrap: nowrap;
+	
+		  font-family: "Verdana", Sansserif;
+		  font-weight: bold;
+	  }
+
+	  
+	  .Intro_1{
+		flex: 1;
+		order: 1;
+	 }
+
+
+	  .Intro_2{
+		 flex: 1;
+		 order: 2;
+	  }
+
+	  .Intro_3{
+		flex: 1;
+		order: 3;
+	 }
+
 	  
 	  ul {
+		  
 		  margin: 0;
 		  padding: 0;
 		  list-style-type: none;
 	  }
 
 	  li {
+		  
 		  display: inline-block;
 		  margin: 20px;
 	  }
