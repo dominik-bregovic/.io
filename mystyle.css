@@ -1,53 +1,120 @@
 
       body {
-        background-image: url('images/trooper.jpg');
+        background-image: url('images/back.jfif');
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: 100% 100%;
 	
       }
 
-	  header {
+	  .welcome{
 		display: flex;
 		flex-direction: column;
-		flex-wrap: nowrap;
-  
-		font-family: "Verdana", Sansserif;
-		font-weight: bold;
+		align-items: center;
+		background-color: none;
+		font-family: "Verdana", 'Times New Roman', Times, serif;
+		font-weight: bolder;
+		font-size: 30px;
+	
 	  }
 
-	  .Intro{
+	  .Intro-Container{
 		  display: flex;
 		  flex-direction: column;
 		  flex-wrap: nowrap;
-	
 		  font-family: "Verdana", Sansserif;
 		  font-weight: bold;
+		  align-items: flex-end;
 	  }
 
 	  
 	  .Intro_1{
+		 
 		flex: 1;
 		order: 1;
+		
 	 }
-
-
 	  .Intro_2{
 		 flex: 1;
-		 order: 2;
+		 order: 3;
 	  }
-
 	  .Intro_3{
 		flex: 1;
-		order: 3;
+		order: 2;
 	 }
 
-	  
+	 .blockchain{
+		display: flex;
+		flex-direction: row;
+		flex-wrap: nowrap;
+		align-items: center;
+		justify-content: center;		
+	 }
+
+	 .blockchainText{
+		font-family: "Verdana", Sansserif;
+		font-weight: bold;
+	
+	 }
+
+	 .blockchainImage{
+		flex-wrap: nowrap;
+		 opacity: 0.5; /*makes the image transparent*/
+	 }
+
+	
+
+	 div > p{
+		 color: black;
+		 font-weight: normal;
+	 }
+
+	
+
+	 table > tr{
+	
+		font-weight: bold;
+	 }
+
+	
+
+	  .videos{
+		position: relative;
+		overflow: hidden;
+		padding-top: 56.25%;
+	}
+
+	.iframeVid1{
+		position: absolute;
+		left: 70%;
+		top: 75%;
+		width: 33%;
+		height: 30%;
+		border: 0;			/*to let border (frame) disapear*/
+	}
+	.iframeVid2{
+		position: absolute;
+		left: 70%;
+		top: 110%;
+		width: 33%;
+		height: 30%;
+		border: 0;			/*to let border (frame) disapear*/
+	}
+	.iframeVid3{
+		position: absolute;
+		left: 70%;
+		top: 145%;
+		width: 33%;
+		height: 30%;
+		border: 0;			/*to let border (frame) disapear*/
+	}
+
+
 	  ul {
 		  
 		  margin: 0;
 		  padding: 0;
-		  list-style-type: none;
+		  list-style-type: georgian;
 	  }
 
 	  li {
@@ -56,29 +123,9 @@
 		  margin: 20px;
 	  }
 	  
-	  h1{
-		  color:white;
-		  font-family: "Verdana", Sansserif;
-		  font-weight: bold;
-	  }
+
+
 	  
-	  h2{
-		  color:white;
-		  font-family: "Verdana", Sansserif;
-		  font-weight: bold;
-	  }
-	  
-	  p{
-		   font-family: "Georgia", Sansserif;
-	  }
-	  
-	  iframe{
-		  border:none;
-	  }
-	  
-	  table{
-		  width:70%;
-	  }
-	  
+	
 	  
      
