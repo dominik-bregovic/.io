@@ -29,10 +29,8 @@
 
 	  
 	  .Intro_1{
-		 
 		flex: 1;
 		order: 1;
-		
 	 }
 	  .Intro_2{
 		 flex: 1;
@@ -57,27 +55,24 @@
 	
 	 }
 
-	 .blockchainImage{
+	 .blockchainIFrame{
 		flex-wrap: nowrap;
 		 opacity: 0.5; /*makes the image transparent*/
 	 }
 
 	
-
 	 div > p{
 		 color: black;
 		 font-weight: normal;
 	 }
 
 	
-
 	 table > tr{
 	
 		font-weight: bold;
 	 }
 
 	
-
 	  .videos{
 		position: relative;
 		overflow: hidden;
@@ -92,6 +87,14 @@
 		height: 30%;
 		border: 0;			/*to let border (frame) disapear*/
 	}
+	.frame1Text{
+		position: absolute;
+		left: 10%;
+		top: 75%;
+		width: 33%;
+		height: 30%;	
+	}
+
 	.iframeVid2{
 		position: absolute;
 		left: 70%;
@@ -100,6 +103,15 @@
 		height: 30%;
 		border: 0;			/*to let border (frame) disapear*/
 	}
+	.frame2Text{
+		position: absolute;
+		left: 10%;
+		top: 110%;
+		width: 33%;
+		height: 30%;	
+	}
+
+
 	.iframeVid3{
 		position: absolute;
 		left: 70%;
@@ -107,6 +119,44 @@
 		width: 33%;
 		height: 30%;
 		border: 0;			/*to let border (frame) disapear*/
+	}
+	.frame3Text{
+		position: absolute;
+		left: 10%;
+		top: 145%;
+		width: 33%;
+		height: 30%;	
+	}
+
+	.searchEngine{
+		position: relative;
+		overflow: hidden;
+		padding-top: 56.25%;
+	}
+
+	.searchEngineText{
+		position: absolute;
+		left: 20%;
+		top: 195%;
+		width: 35%;
+		height: 10%;	
+	
+	}
+
+	.yahooEngine{
+		position: absolute;
+		left: 80%;
+		top: 190%;
+		width: 33%;
+		height: 30%;	
+	}
+
+	.googleEngine1{
+		position: absolute;
+		left: 80%;
+		top: 200%;
+		width: 33%;
+		height: 30%;	
 	}
 
 
