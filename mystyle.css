@@ -57,7 +57,12 @@
 
 	 .blockchainIFrame{
 		flex-wrap: nowrap;
-		 opacity: 0.5; /*makes the image transparent*/
+		 opacity: 0.6; /*makes the image transparent*/
+	 }
+
+	 .blockchainImage{
+		flex-wrap: nowrap;
+		opacity: 0.8; /*makes the image transparent*/
 	 }
 
 	
